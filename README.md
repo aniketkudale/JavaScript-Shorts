@@ -1,2 +1,34 @@
-# JavaScript-Shorts
-Short JavaScript Snippets
+<div align="center">
+  <img height="60" src="https://img.icons8.com/color/344/javascript.png"> 
+  <h1>JavaScript Shorts</h1>
+  
+  [![GitHub license](https://img.shields.io/github/license/aniketkudale/JavaScript-Shorts)](https://github.com/aniketkudale/JavaScript-Shorts/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/aniketkudale/JavaScript-Shorts)](https://github.com/aniketkudale/JavaScript-Shorts/stargazers) [![GitHub forks](https://img.shields.io/github/forks/aniketkudale/JavaScript-Shorts)](https://github.com/aniketkudale/JavaScript-Shorts/network) [![GitHub issues](https://img.shields.io/github/issues/aniketkudale/JavaScript-Shorts)](https://github.com/aniketkudale/JavaScript-Shorts/issues) ![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Faniketkudale%2FJavaScript-Shorts) ![GitHub followers](https://img.shields.io/github/followers/aniketkudale?style=social)
+
+---
+
+<span>A crowd sourced list of short essential JavaScript snippets. <span>
+
+---
+
+## Table of Contents
+
+1. **[Check if value is a Number](#1-number-check)**
+
+---
+
+## 1. Check if value is number
+```javascript
+//using isNaN()
+const value = 3
+
+isNaN(value) //false
+isNan('string') //true
+
+//using typeof
+typeof 1 //'number'
+
+//using conditional check
+if (typeof value === 'number') {
+	//its a number
+}
+```
