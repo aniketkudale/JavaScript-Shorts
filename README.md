@@ -9,9 +9,10 @@
 ---
 
 </div>
+
 ## Table of Contents
 
-1. **[Check if value is a Number](#1-number-check)**
+1. **[Check if value is a Number](#1-check-if-value-is-number)**
 
 ---
 
@@ -21,7 +22,7 @@
 const value = 3
 
 isNaN(value) //false
-isNan('string') //true
+isNaN('string') //true
 
 //using typeof
 typeof 1 //'number'
