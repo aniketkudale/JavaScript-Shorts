@@ -13,7 +13,7 @@
 ## Table of Contents
 
 1. **[Check if value is a Number](#1-check-if-value-is-number)**
-2. **[Check if value is a Array or String](#1-check-if-value-is-array-or-string)**
+2. **[Check if value is a Array or String](#2-check-if-value-is-array-or-string)**
 
 ---
 
