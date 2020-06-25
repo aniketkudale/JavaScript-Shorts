@@ -13,6 +13,7 @@
 ## Table of Contents
 
 1. **[Check if value is a Number](#1-check-if-value-is-number)**
+2. **[Check if value is a Array or String](#1-check-if-value-is-array-or-string)**
 
 ---
 
@@ -31,4 +32,21 @@ typeof 1 //'number'
 if (typeof value === 'number') {
 	//its a number
 }
+```
+
+## 2. Check if value is Array or String
+```javascript
+const array = [1, 2, 3];
+
+console.log(array.includes(2)) // true
+
+const fruits = ['apple', 'orange', 'banana'];
+
+console.log(fruits.includes('apple')) // true
+
+console.log(fruits.includes('range')) // false
+
+const str = "Hello World"; // With String
+
+console.log(str.includes('o W')) // true
 ```
