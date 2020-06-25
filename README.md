@@ -13,7 +13,10 @@
 ## Table of Contents
 
 1. **[Check if value is a Number](#1-check-if-value-is-number)**
-2. **[Check if value is a Array or String](#2-check-if-value-is-array-or-string)**
+2. **[Check if value is in Array or String](#2-check-if-value-is-array-or-string)**
+3. **[Create an Array from a String](#3-check-an-array-from-a-string)**
+4. **[Check if Array](#4-check-if-Array)**
+5. **[Merge Two Arrays](#5-merge-two-arrays)**
 
 ---
 
@@ -49,4 +52,36 @@ console.log(fruits.includes('range')) // false
 const str = "Hello World"; // With String
 
 console.log(str.includes('o W')) // true
+```
+
+## 3. Create and Array from a string
+```javascript
+console.log(Array.from('foo'));
+// expected output: Array ["f", "o", "o"]
+
+console.log([...'foo']);
+// expected output: Array [2, 4, 6]
+```
+
+## 4. Create if Array
+```javascript
+Array.isArray([1, 2, 3]);  // true
+Array.isArray({foo: 123}); // false
+Array.isArray('foobar');   // false
+Array.isArray(undefined);  // false
+Array.isArray('foo'.split('')); // true
+```
+
+## 5. Merge two Arrays
+```javascript
+const teamCaptainAmerica = ['Captain America', 'Bucky Barnes', 'Falcon', 'Scarlet Witch', 'Hawkeye', 'Ant-Man'];
+const teamIronMan = ['Iron Man', 'Black Panther', 'Vision', 'Black Widow', 'War Machine', 'Spider-Man'];
+const avengers = teamCaptainAmerica.concat(teamIronMan);
+
+console.log(avengers);
+/* 
+  output: Array ["Captain America", "Bucky Barnes", "Falcon", "Scarlet Witch", 
+ "Hawkeye", "Ant-Man", "Iron Man", "Black Panther", "Vision", "Black Widow", "War Machine", "Spider-Man"] 
+*/
+
 ```
