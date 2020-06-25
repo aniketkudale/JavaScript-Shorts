@@ -63,7 +63,7 @@ console.log([...'foo']);
 // expected output: Array [2, 4, 6]
 ```
 
-## 4. Create if Array
+## 4. Check if Array
 ```javascript
 Array.isArray([1, 2, 3]);  // true
 Array.isArray({foo: 123}); // false
