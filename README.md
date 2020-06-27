@@ -17,6 +17,7 @@
 3. **[Create an Array from a String](#3-check-an-array-from-a-string)**
 4. **[Check if Array](#4-check-if-Array)**
 5. **[Merge Two Arrays](#5-merge-two-arrays)**
+6. **[Copy a value within Array](#6-copy-a-value-within-array)**
 
 ---
 
@@ -83,5 +84,19 @@ console.log(avengers);
   output: Array ["Captain America", "Bucky Barnes", "Falcon", "Scarlet Witch", 
  "Hawkeye", "Ant-Man", "Iron Man", "Black Panther", "Vision", "Black Widow", "War Machine", "Spider-Man"] 
 */
+
+```
+
+## 6. Copy a value within a Array
+```javascript
+const array1 = ['a', 'b', 'c', 'd', 'e'];
+
+// copy to index 0 the element at index 3
+console.log(array1.copyWithin(0, 3, 4));
+// expected output: Array ["d", "b", "c", "d", "e"]
+
+// copy to index 1 all elements from index 3 to the end
+console.log(array1.copyWithin(1, 3));
+// expected output: Array ["d", "d", "e", "d", "e"]
 
 ```
