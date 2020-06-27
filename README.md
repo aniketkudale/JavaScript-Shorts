@@ -87,7 +87,7 @@ console.log(avengers);
 
 ```
 
-## 6. Copy a value within a Array
+## 6. Copy a value within Array
 ```javascript
 const array1 = ['a', 'b', 'c', 'd', 'e'];
 
