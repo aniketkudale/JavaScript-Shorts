@@ -19,6 +19,7 @@
 5. **[Merge Two Arrays](#5-merge-two-arrays)**
 6. **[Copy a value within Array](#6-copy-a-value-within-array)**
 7. **[Return Array iterator](#7-return-array-iterator)**
+8. **[Check if all elements pass test](#8-Check-if-all-elements-pass-test)**
 
 ---
 
@@ -113,6 +114,18 @@ console.log(iterator1.next().value);
 
 console.log(iterator1.next().value);
 // expected output: Array [1, "b"]
+
+
+```
+
+## 8. Check if all elements pass test
+```javascript
+const isBelowThreshold = (currentValue) => currentValue < 40;
+
+const array1 = [1, 30, 39, 29, 10, 13];
+
+console.log(array1.every(isBelowThreshold));
+// expected output: true
 
 
 ```
