@@ -20,6 +20,7 @@
 6. **[Copy a value within Array](#6-copy-a-value-within-array)**
 7. **[Return Array iterator](#7-return-array-iterator)**
 8. **[Check if all elements pass test](#8-Check-if-all-elements-pass-test)**
+9. **[Fill an array with a static value](#9-Fill-an-array-with-a-static-value)**
 
 ---
 
@@ -115,7 +116,6 @@ console.log(iterator1.next().value);
 console.log(iterator1.next().value);
 // expected output: Array [1, "b"]
 
-
 ```
 
 ## 8. Check if all elements pass test
@@ -127,5 +127,21 @@ const array1 = [1, 30, 39, 29, 10, 13];
 console.log(array1.every(isBelowThreshold));
 // expected output: true
 
+```
+
+## 9. Fill an array with a static value
+```javascript
+const array1 = [1, 2, 3, 4];
+
+// fill with 0 from position 2 until position 4
+console.log(array1.fill(0, 2, 4));
+// expected output: [1, 2, 0, 0]
+
+// fill with 5 from position 1
+console.log(array1.fill(5, 1));
+// expected output: [1, 5, 5, 5]
+
+console.log(array1.fill(6));
+// expected output: [6, 6, 6, 6]
 
 ```
