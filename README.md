@@ -149,9 +149,9 @@ console.log(array1.fill(6));
 
 ## 10. Filter an array
 ```javascript
-// Return new array
 const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
 
+// Return new array
 const result = words.filter(word => word.length > 6);
 
 console.log(result);
