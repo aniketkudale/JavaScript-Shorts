@@ -21,6 +21,7 @@
 7. **[Return Array iterator](#7-return-array-iterator)**
 8. **[Check if all elements pass test](#8-Check-if-all-elements-pass-test)**
 9. **[Fill an array with a static value](#9-Fill-an-array-with-a-static-value)**
+10. **[Filter an Array](#10-filter-an-array)**
 
 ---
 
@@ -144,4 +145,15 @@ console.log(array1.fill(5, 1));
 console.log(array1.fill(6));
 // expected output: [6, 6, 6, 6]
 
+```
+
+## 10. Filter an array
+```javascript
+// Return new array
+const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+const result = words.filter(word => word.length > 6);
+
+console.log(result);
+// expected output: Array ["exuberant", "destruction", "present"]
 ```
