@@ -22,6 +22,7 @@
 8. **[Check if all elements pass test](#8-Check-if-all-elements-pass-test)**
 9. **[Fill an array with a static value](#9-Fill-an-array-with-a-static-value)**
 10. **[Filter an Array](#10-filter-an-array)**
+11. **[Find in an Array](#11-find-in-an-array)**
 
 ---
 
@@ -156,4 +157,14 @@ const result = words.filter(word => word.length > 6);
 
 console.log(result);
 // expected output: Array ["exuberant", "destruction", "present"]
+```
+
+## 11. Find in an array
+```javascript
+const array1 = [5, 12, 8, 130, 44];
+
+const found = array1.find(element => element > 10);
+
+console.log(found);
+// expected output: 12
 ```
