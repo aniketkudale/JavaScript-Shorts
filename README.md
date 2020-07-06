@@ -23,6 +23,7 @@
 9. **[Fill an array with a static value](#9-Fill-an-array-with-a-static-value)**
 10. **[Filter an Array](#10-filter-an-array)**
 11. **[Find in an Array](#11-find-in-an-array)**
+12. **[Flatten an Array](#12-flatten-an-array)**
 
 ---
 
@@ -166,5 +167,20 @@ const array1 = [5, 12, 8, 130, 44];
 const found = array1.find(element => element > 10);
 
 console.log(found);
+// expected output: 12
+```
+
+## 12. Flatten an array
+```javascript
+const arr = [1, 2, [3, 4]];
+
+// To flat single level array
+arr.flat();
+// is equivalent to
+arr.reduce((acc, val) => acc.concat(val), []);
+// [1, 2, 3, 4]
+
+// or with decomposition syntax
+const flattened = arr => [].concat(...arr);
 // expected output: 12
 ```
