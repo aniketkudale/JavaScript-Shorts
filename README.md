@@ -24,6 +24,7 @@
 10. **[Filter an Array](#10-filter-an-array)**
 11. **[Find in an Array](#11-find-in-an-array)**
 12. **[Flatten an Array](#12-flatten-an-array)**
+13. **[Array forEach()](#12-array-foreach())**
 
 ---
 
@@ -183,4 +184,16 @@ arr.reduce((acc, val) => acc.concat(val), []);
 // or with decomposition syntax
 const flattened = arr => [].concat(...arr);
 // expected output: 12
+```
+## 13. Array forEach()
+```javascript
+// The forEach() method executes a provided function once for each array element.
+const array1 = ['a', 'b', 'c'];
+
+array1.forEach(element => console.log(element));
+
+// expected output: "a"
+// expected output: "b"
+// expected output: "c"
+
 ```
