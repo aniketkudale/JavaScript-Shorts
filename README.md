@@ -25,7 +25,7 @@
 11. **[Find in an Array](#11-find-in-an-array)**
 12. **[Flatten an Array](#12-flatten-an-array)**
 13. **[Array forEach()](#13-array-foreach)**
-14. **[Array indeOf()](#14-array-indeof)**
+14. **[Array indexOf()](#14-array-indexof)**
 
 ---
 
@@ -199,7 +199,7 @@ array1.forEach(element => console.log(element));
 
 ```
 
-## 14. Array indeof()
+## 14. Array indexof()
 ```javascript
 const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
 
