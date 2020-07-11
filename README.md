@@ -25,7 +25,7 @@
 11. **[Find in an Array](#11-find-in-an-array)**
 12. **[Flatten an Array](#12-flatten-an-array)**
 13. **[Array forEach()](#13-array-foreach)**
-14. **[Array forEach()](#13-array-foreach)**
+14. **[Array indeOf()](#14-array-indeof)**
 
 ---
 
@@ -196,5 +196,21 @@ array1.forEach(element => console.log(element));
 // expected output: "a"
 // expected output: "b"
 // expected output: "c"
+
+```
+
+## 14. Array indeof()
+```javascript
+const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
+
+console.log(beasts.indexOf('bison'));
+// expected output: 1
+
+// start from index 2
+console.log(beasts.indexOf('bison', 2));
+// expected output: 4
+
+console.log(beasts.indexOf('giraffe'));
+// expected output: -1
 
 ```
