@@ -25,6 +25,7 @@
 11. **[Find in an Array](#11-find-in-an-array)**
 12. **[Flatten an Array](#12-flatten-an-array)**
 13. **[Array forEach()](#13-array-foreach)**
+14. **[Array forEach()](#13-array-foreach)**
 
 ---
 
