@@ -26,6 +26,9 @@
 12. **[Flatten an Array](#12-flatten-an-array)**
 13. **[Array forEach()](#13-array-foreach)**
 14. **[Array indexOf()](#14-array-indexof)**
+15. **[Array join()](#15-array-join)**
+16. **[Array keys()](#16-array-keys)**
+17. **[Array lastIndexOf()](#17-array-lastindexof)**
 
 ---
 
@@ -213,4 +216,46 @@ console.log(beasts.indexOf('bison', 2));
 console.log(beasts.indexOf('giraffe'));
 // expected output: -1
 
+```
+
+## 15. Array join()
+```javascript
+const elements = ['Fire', 'Air', 'Water'];
+
+console.log(elements.join());
+// expected output: "Fire,Air,Water"
+
+console.log(elements.join(''));
+// expected output: "FireAirWater"
+
+console.log(elements.join('-'));
+// expected output: "Fire-Air-Water"
+
+```
+
+## 16. Array keys()
+```javascript
+const array1 = ['a', 'b', 'c'];
+const iterator = array1.keys();
+
+for (const key of iterator) {
+  console.log(key);
+}
+
+// expected output: 0
+// expected output: 1
+// expected output: 2
+
+```
+
+## 17. Array lastIndexOf()
+```javascript
+// The array is searched backwards
+const animals = ['Dodo', 'Tiger', 'Penguin', 'Dodo'];
+
+console.log(animals.lastIndexOf('Dodo'));
+// expected output: 3
+
+console.log(animals.lastIndexOf('Tiger'));
+// expected output: 1
 ```
