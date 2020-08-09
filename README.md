@@ -267,5 +267,7 @@ console.log(animals.lastIndexOf('Tiger'));
 const animals = ['Dodo', 'Tiger', 'Penguin', 'Dodo'];
 
 const result = animals.map((animal) => animal + 'ing');
-["Dodoing", "Tigering", "Penguining", "Dodoing"]
+
+console.log(result);
+// ["Dodoing", "Tigering", "Penguining", "Dodoing"]
 ```
