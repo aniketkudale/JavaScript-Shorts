@@ -29,7 +29,7 @@
 15. **[Array join()](#15-array-join)**
 16. **[Array keys()](#16-array-keys)**
 17. **[Array lastIndexOf()](#17-array-lastindexof)**
-18. **[Array map()](#17-array-map)**
+18. **[Array map()](#18-array-map)**
 
 ---
 
@@ -261,7 +261,7 @@ console.log(animals.lastIndexOf('Tiger'));
 // expected output: 1
 ```
 
-## 17. Array map()
+## 18. Array map()
 ```javascript
 // The array is searched backwards
 const animals = ['Dodo', 'Tiger', 'Penguin', 'Dodo'];
